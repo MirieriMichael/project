@@ -1,0 +1,118 @@
+
+        /* Reset default margin and padding */
+        body,
+        h1,
+        h2,
+        form,
+        input {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set background and font styles for the whole page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            height: 100vh;
+        }
+
+        /* Style the main heading */
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        /* Container for the admit form */
+        .appoint-Bbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Styling for each side box */
+        .appoint-Sbox {
+            flex: 1;
+            padding: 20px;
+        }
+
+        /* Style the image box */
+        .admit-img {
+            height: 100vh;
+            background-image: url("admit.jpg");
+            background-size: cover;
+        }
+
+        /* Styling for the form box */
+        .book-box {
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the form elements */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .book-img {
+            height: 150vh;
+            background-image: url("bookAppoint.jpg");
+            background-size: cover;
+        }
+        .add-img {
+            height: 100vh;
+            background-image: url("adddrugs.jpg");
+            background-size: cover;
+        }
+        .feedback-img {
+            height: 120vh;
+            background-image: url("feedback.jpg");
+            background-size: cover;
+        }
+        .summary-img {
+            height: 140vh;
+            background-image: url("patientsummary.jpg");
+            background-size: cover;
+        }
+
+        /* Add some spacing between elements on smaller screens */
+        @media screen and (max-width: 600px) {
+            .appoint-Bbox {
+                flex-direction: column;
+            }
+
+            .appoint-Sbox {
+                margin-bottom: 20px;
+            }
+        }

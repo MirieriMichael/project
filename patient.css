@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-image: url("patient\ page.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome-text {
+  color: #FFFFFF;
+  font-size: 35px;
+}
+
+.name {
+  color: #FFFFFF;
+  margin-top: 20px;
+  font-size: 55px;
+}
+
+.welcome-speech {
+  color: black ;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.welcome-button {
+  display: inline-block;
+  background-color: #0085FF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.welcome-button:hover{
+  background-color: #69b4ff;
+  font-size: 20px;
+}
+#doctor-section {
+  height: 100vh;
+  background-image: url("doctor-office.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.doctor-name {
+  color: black;
+  margin-top: 20px;
+  font-size: 55px;
+}
+#pharmacy-section {
+  height: 100vh;
+  background-image: url("pharmacy.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#admin-section {
+  height: 100vh;
+  background-image: url("admin.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

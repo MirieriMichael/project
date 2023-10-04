@@ -1,0 +1,117 @@
+body {
+	font-family: sans-serif;
+	background: white
+
+}
+.appoint-Bbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; 
+}
+
+.appoint-Sbox {
+  width: 50%;
+  height: 100%;
+}
+.appoint-img{
+	height: 100vh;
+    background-image: url("bookAppoint.jpg");
+    background-size: cover;
+}
+
+
+.book-box {
+	width: 100%;
+	height: 100%;
+	background: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 30px;
+}
+ h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	color: #03a9f4;
+	text-align: center;
+}
+ .user-box {
+	position: relative;
+}
+ .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #050505;
+	outline: none;
+	background: transparent;
+}
+ .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: black;
+	pointer-events: none;
+	transition: 0.5s;
+}
+ .user-box input:focus ~ label,
+ .user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+.book-text{
+    background-color:  #fff;
+    color: black;
+    top: -20px;
+	left: 0;
+    width: 100%;
+	border-radius: 10px;
+	padding: 10px 10px;
+	font-size: 16px;
+}
+.book-button {
+	display: inline-block;
+	background: #03a9f4;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	border-radius: 25px;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.5s;
+	margin-top: 40px;
+}
+.book-button:hover{
+	background-color: #fff;
+	color: #03a9f4;
+}
+.feedback-img{
+	height: 100vh;
+    background-image: url("feedback.jpg");
+    background-size: cover;
+}
+
+.add-img{
+	height: 100vh;
+    background-image: url("adddrugs.jpg");
+    background-size: cover;
+}
+.admit-img{
+	height: 100vh;
+    background-image: url("admit.jpg");
+    background-size: cover;
+}
+.patient-img{
+	height: 100vh;
+    background-image: url("patientsummary.jpg");
+    background-size: cover;
+}
+
+
